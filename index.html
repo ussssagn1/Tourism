@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>  
+
+    <header class="header">
+
+    	<div class="container">
+
+    		<div class="header__content">
+
+    			<div class="header__content-left">
+
+    				<a href="#"><img class="header__logo" src="./img/logo.svg" alt=""></a>	
+
+    				<nav class="header__nav">
+
+    					<ul class="header__list">
+
+    						<li class="header__item">
+
+    							<a href="#" class="header__link">Home</a>
+
+    						</li>
+
+    						<li class="header__item">
+
+    							<a href="#" class="header__link">About us</a>
+
+    						</li>
+
+    						<li class="header__item">
+
+    							<a href="#" class="header__link">Destinations</a>
+
+    						</li>
+
+    						<li class="header__item">
+
+    							<a href="#" class="header__link">Tours</a>
+
+    						</li>
+
+    						<li class="header__item">
+
+    							<a href="#" class="header__link">Blog</a>
+
+    						</li>
+
+    					</ul>
+
+    				</nav>
+
+    			</div>			
+
+    			<a href="" class="header__btn">Book Now 
+
+    				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+
+    					<path class="btn-icon" d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z" fill="#F66F4D"/>
+
+    			  	</svg>
+
+    			</a>
+
+    		</div>
+
+    	</div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="discover">
+
+            <div class="container">
+
+                <div class="discover__content">
+
+                    <div class="discover__info">
+
+                        <h1 class="discover__title">Discover the Best Lovely Places</h1>
+
+                        <p class="discover__desc">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
+
+                        <form action="" class="discover__form">
+
+                            <label class="discover__label" for="">
+
+                               <span>Where</span>
+
+                               <input class="discover__input" type="text" placeholder="Center Point, Lo...">
+
+                            </label>
+
+                            <div class="discover__form-devider"></div>
+
+                            <label class="discover__label" for="">
+
+                                <span>Date</span>
+
+                               <input class="discover__input" type="date" placeholder="09th March,2021">
+
+                            </label>
+
+                            <button class="discover__btn">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+
+                                    <rect width="54" height="54" rx="27" fill="#F66F4D"/>
+
+                                    <path d="M25.692 34.8391C30.7428 34.8391 34.8372 30.7447 34.8372 25.6939C34.8372 20.6432 30.7428 16.5488 25.692 16.5488C20.6413 16.5488 16.5469 20.6432 16.5469 25.6939C16.5469 30.7447 20.6413 34.8391 25.692 34.8391Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                    <path d="M32.1592 32.1609L37.4504 37.452" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                  </svg>
+
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                    <img class="discover__img" src="./img/discover.png">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="categories">
+
+            <div class="container">
+
+                <div class="categories__top">
+
+                    <div class="categories__top-title">
+
+                        <h2 class="section__title">Categories</h2>
+
+                        <p class="categories__top-desc">Here are lots of interesting destinations to visit, but don’t be confused—they’re already grouped by category.</p>
+
+                    </div>    
+
+                    <div class="categories__top-controls">
+
+                        <button id="sliderPrev">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+
+                                <circle cx="27" cy="27" r="26.5" transform="matrix(-1 0 0 1 54 0)" stroke="#2D3134"/>
+
+                                <path d="M30 33L24 27L30 21" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+                            </svg>
+
+                        </button>
+
+                        <button id="sliderNext">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+
+                                <circle cx="27" cy="27" r="26.5" stroke="#2D3134"/>
+
+                                <path d="M24 33L30 27L24 21" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+                            </svg>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="categories__slider">                
+
+                    <div class="swiper">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/1.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Beach</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/2.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Desert</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/3.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Mountain</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/4.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Temple</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/5.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Tower</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/6.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Pyramid</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/1.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Beach</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/2.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Desert</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/3.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Mountain</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/4.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Temple</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/5.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Tower</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="card">             
+
+                                    <div class="card__img">
+
+                                        <img src="./img/slider/6.png" alt="">
+
+                                        <span class="card__img-text">Visite</span>
+
+                                    </div>      
+
+                                    <p class="card__text">Pyramid</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="stories">
+
+            <div class="container">
+
+                <div class="stories__content">
+
+                    <img src="./img/stories.png" alt="">
+
+                    <div class="stories__text">
+
+                        <p class="stories__title-desc">Our Experience</p>
+
+                        <h2 class="section__title">Our Stories Have Adventures</h2>
+
+                        <p class="stories__desc">We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the world as our specialties. Start your adventure now! Nature has already called you!</p>
+
+                        <div class="stories__cards">
+
+                            <div class="stories__card">
+
+                                <h5 class="stories__card-num">12K+</h5>
+
+                                <p class="stories__card-text">Succes Journey</p>
+
+                            </div>
+
+                            <div class="stories__card">
+
+                                <h5 class="stories__card-num">16+</h5>
+
+                                <p class="stories__card-text">Awards Winning</p>
+
+                            </div>
+
+                            <div class="stories__card">
+
+                                <h5 class="stories__card-num">20+</h5>
+
+                                <p class="stories__card-text">Years Of Experience</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="destinations">
+
+            <div class="container">
+
+                <h2 class="section__title" style="max-width: 400px;">Find Popular Destination</h2>
+
+                <div class="swiperSecond destinations__cards">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/1.png" alt="">
+
+                            <h4 class="destinations__card-title">Mountain Hiking Tour</h4>
+
+                            <p class="destinations__desc">Mountain Hiking Tour</p>
+
+                            <p class="destinations__price">$89 /Person</p>
+
+                        </div>
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/2.png" alt="">
+
+                            <h4 class="destinations__card-title">Machu Picchu, Peru</h4>
+
+                            <p class="destinations__desc">Machu Picchu, Peru</p>
+
+                            <p class="destinations__price">$99 /Person</p>
+
+                        </div>
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/3.png" alt="">
+
+                            <h4 class="destinations__card-title">The Grand Canyon, Arizona</h4>
+
+                            <p class="destinations__desc">Mountain Hiking Tour</p>
+
+                            <p class="destinations__price">$70 /Person</p>
+
+                        </div>
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/4.png" alt="">
+
+                            <h4 class="destinations__card-title">Rome, Italy</h4>
+
+                            <p class="destinations__desc">Mountain Hiking Tour</p>
+
+                            <p class="destinations__price">$89 /Person</p>
+
+                        </div>
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/1.png" alt="">
+
+                            <h4 class="destinations__card-title">Mountain Hiking Tour</h4>
+
+                            <p class="destinations__desc">Mountain Hiking Tour</p>
+
+                            <p class="destinations__price">$89 /Person</p>
+
+                        </div>
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/2.png" alt="">
+
+                            <h4 class="destinations__card-title">Machu Picchu, Peru</h4>
+
+                            <p class="destinations__desc">Machu Picchu, Peru</p>
+
+                            <p class="destinations__price">$99 /Person</p>
+
+                        </div>
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/3.png" alt="">
+
+                            <h4 class="destinations__card-title">The Grand Canyon, Arizona</h4>
+
+                            <p class="destinations__desc">Mountain Hiking Tour</p>
+
+                            <p class="destinations__price">$70 /Person</p>
+
+                        </div>
+
+                        <div class="swiper-slide destinations__card">
+
+                            <img src="./img/destinations/4.png" alt="">
+
+                            <h4 class="destinations__card-title">Rome, Italy</h4>
+
+                            <p class="destinations__desc">Mountain Hiking Tour</p>
+
+                            <p class="destinations__price">$89 /Person</p>
+
+                        </div>
+
+                    </div>                
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="top">
+
+            <div class="container">
+
+                <div class="top__title">
+
+                    <h3 class="section__title">Top Destinations</h3>
+
+                    <p class="top__title-desc">Sost Brilliant reasons Entrada should be your one-stop-shop!</p>
+
+                </div>
+
+                <div class="top__buttons">
+
+                    <button class="top__btn" data-filter=".london">London</button>
+
+                    <button class="top__btn" data-filter=".bangkok">Bangkok</button>
+
+                    <button class="top__btn" data-filter=".england">England</button>
+
+                    <button class="top__btn" data-filter=".singapore">Singapore</button>
+
+                    <button class="top__btn" data-filter=".italy">Italy</button>
+
+                </div>
+
+                <div class="top__inner">
+
+                    <div class="top__items mix london">
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/1.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/3.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num" style="margin-bottom: 404px;">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/4.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item top__item-special" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/2.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <div class="top__second-card">
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/5.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/6.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <div class="top__items mix bangkok">
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/1.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/3.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num" style="margin-bottom: 404px;">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/4.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item top__item-special" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/2.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <div class="top__second-card">
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/5.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/6.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <div class="top__items mix england">
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/1.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/3.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num" style="margin-bottom: 404px;">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/4.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item top__item-special" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/2.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <div class="top__second-card">
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/5.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/6.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <div class="top__items mix singapore">
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/1.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/3.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num" style="margin-bottom: 404px;">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/4.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item top__item-special" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/2.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <div class="top__second-card">
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/5.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/6.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <div class="top__items mix italy">
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/1.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/3.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num" style="margin-bottom: 404px;">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/4.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <a class="top__item top__item-special" href="">
+
+                            <div class="top__item-content">
+
+                                <img src="./img/top/2.png" alt="">
+
+                                <div class="top__item-text">
+
+                                    <div class="top__item-num">3.5</div>
+
+                                    <div class="top__item-title">Vientam</div>
+
+                                    <div class="top__item-desc">Worefall</div>
+
+                                </div>                            
+
+                            </div>
+
+                        </a>
+
+                        <div class="top__second-card">
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/5.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                            <a class="top__item" href="">
+
+                                <div class="top__item-content">
+
+                                    <img src="./img/top/6.png" alt="">
+
+                                    <div class="top__item-text">
+
+                                        <div class="top__item-num">3.5</div>
+
+                                        <div class="top__item-title">Vientam</div>
+
+                                        <div class="top__item-desc">Worefall</div>
+
+                                    </div>                            
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                </div>  
+
+            </div>
+
+        </section>
+
+        <section class="castomer">
+
+            <div class="container">
+
+                <div class="castomer__content">
+
+                    <img src="./img/aboutUs.png" alt="">
+
+                    <div class="castomer__about">
+
+                        <h2 class="section__title" style="max-width: 467px;">A customer said about us:</h2>
+
+                        <div class="swiperThird">
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide castomer__about-wrapper">
+
+                                    <p class="castomer__about-text">Salty helped me a lot in finding the best place for our first outdoor adventure trip. They responded very quickly and gave me a detailed account of the place—its history, as well as its best features.</p>
+
+                                    <div class="star">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="108" height="17" viewBox="0 0 108 17" fill="none">
+
+                                            <path d="M40.6654 6.40648C40.5825 6.15855 40.4228 5.94022 40.2072 5.78011C39.9915 5.62 39.73 5.52559 39.457 5.50926L34.5403 5.18657L32.7193 0.818518C32.6199 0.578003 32.4468 0.371406 32.2225 0.225473C31.9982 0.0795413 31.733 0.000993936 31.4612 0C31.1894 0.000993936 30.9242 0.0795413 30.6999 0.225473C30.4756 0.371406 30.3025 0.578003 30.2031 0.818518L28.349 5.21018L23.4655 5.50926C23.1927 5.52665 22.9318 5.62145 22.7163 5.78141C22.5009 5.94137 22.3409 6.15911 22.257 6.40648C22.1709 6.65764 22.1658 6.92758 22.2425 7.18149C22.3193 7.43539 22.4742 7.66163 22.6874 7.83102L26.4452 10.8532L25.3278 15.0324C25.2505 15.3151 25.2644 15.6134 25.3677 15.8885C25.4711 16.1636 25.659 16.4028 25.9072 16.575C26.1481 16.7394 26.4351 16.8317 26.7315 16.8401C27.0279 16.8485 27.3202 16.7727 27.5709 16.6222L31.4529 14.2847H31.4695L35.6495 16.7954C35.8639 16.9279 36.1139 16.9989 36.3696 17C36.5784 16.9984 36.784 16.9514 36.9707 16.8624C37.1573 16.7735 37.3201 16.645 37.4464 16.4869C37.5727 16.3288 37.6592 16.1453 37.6992 15.9505C37.7393 15.7556 37.7318 15.5546 37.6774 15.363L36.4937 10.7903L40.235 7.83102C40.4482 7.66163 40.6032 7.43539 40.6799 7.18149C40.7566 6.92758 40.7516 6.65764 40.6654 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M85.0425 6.40648C84.9596 6.15855 84.7999 5.94022 84.5842 5.78011C84.3686 5.62 84.1071 5.52559 83.834 5.50926L78.9174 5.18657L77.0964 0.818518C76.997 0.578003 76.8239 0.371406 76.5996 0.225473C76.3753 0.0795413 76.1101 0.000993936 75.8383 0C75.5665 0.000993936 75.3013 0.0795413 75.077 0.225473C74.8527 0.371406 74.6796 0.578003 74.5801 0.818518L72.7261 5.21018L67.8425 5.50926C67.5698 5.52665 67.3088 5.62145 67.0934 5.78141C66.8779 5.94137 66.7179 6.15911 66.6341 6.40648C66.5479 6.65764 66.5429 6.92758 66.6196 7.18149C66.6963 7.43539 66.8513 7.66163 67.0645 7.83102L70.8223 10.8532L69.7049 15.0324C69.6276 15.3151 69.6415 15.6134 69.7448 15.8885C69.8482 16.1636 70.0361 16.4028 70.2843 16.575C70.5252 16.7394 70.8122 16.8317 71.1086 16.8401C71.405 16.8485 71.6972 16.7727 71.948 16.6222L75.83 14.2847H75.8466L80.0265 16.7954C80.2409 16.9279 80.4909 16.9989 80.7466 17C80.9554 16.9984 81.1611 16.9514 81.3477 16.8624C81.5344 16.7735 81.6972 16.645 81.8235 16.4869C81.9498 16.3288 82.0363 16.1453 82.0763 15.9505C82.1163 15.7556 82.1089 15.5546 82.0544 15.363L80.8708 10.7903L84.6121 7.83102C84.8253 7.66163 84.9802 7.43539 85.0569 7.18149C85.1337 6.92758 85.1286 6.65764 85.0425 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M107.231 6.40648C107.148 6.15855 106.988 5.94022 106.773 5.78011C106.557 5.62 106.295 5.52559 106.022 5.50926L101.106 5.18657L99.2848 0.818518C99.1853 0.578003 99.0123 0.371406 98.7879 0.225473C98.5636 0.0795413 98.2984 0.000993936 98.0266 0C97.7548 0.000993936 97.4896 0.0795413 97.2653 0.225473C97.041 0.371406 96.8679 0.578003 96.7685 0.818518L94.9144 5.21018L90.0309 5.50926C89.7582 5.52665 89.4972 5.62145 89.2817 5.78141C89.0663 5.94137 88.9063 6.15911 88.8224 6.40648C88.7363 6.65764 88.7313 6.92758 88.808 7.18149C88.8847 7.43539 89.0396 7.66163 89.2528 7.83102L93.0107 10.8532L91.8932 15.0324C91.8159 15.3151 91.8299 15.6134 91.9332 15.8885C92.0365 16.1636 92.2245 16.4028 92.4727 16.575C92.7135 16.7394 93.0005 16.8317 93.2969 16.8401C93.5933 16.8485 93.8856 16.7727 94.1364 16.6222L98.0184 14.2847H98.0349L102.215 16.7954C102.429 16.9279 102.679 16.9989 102.935 17C103.144 16.9984 103.349 16.9514 103.536 16.8624C103.723 16.7735 103.886 16.645 104.012 16.4869C104.138 16.3288 104.225 16.1453 104.265 15.9505C104.305 15.7556 104.297 15.5546 104.243 15.363L103.059 10.7903L106.8 7.83102C107.014 7.66163 107.169 7.43539 107.245 7.18149C107.322 6.92758 107.317 6.65764 107.231 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M18.4769 6.40648C18.3941 6.15855 18.2343 5.94022 18.0187 5.78011C17.803 5.62 17.5415 5.52559 17.2685 5.50926L12.3518 5.18657L10.5309 0.818518C10.4314 0.578003 10.2584 0.371406 10.034 0.225473C9.80973 0.0795413 9.54452 0.000993936 9.27273 0C9.00094 0.000993936 8.73572 0.0795413 8.51142 0.225473C8.28711 0.371406 8.11403 0.578003 8.0146 0.818518L6.16051 5.21018L1.27698 5.50926C1.00425 5.52665 0.743283 5.62145 0.527839 5.78141C0.312394 5.94137 0.152385 6.15911 0.0685104 6.40648C-0.0176213 6.65764 -0.0226537 6.92758 0.0540622 7.18149C0.130778 7.43539 0.285725 7.66163 0.498924 7.83102L4.25676 10.8532L3.13934 15.0324C3.06203 15.3151 3.07594 15.6134 3.17927 15.8885C3.2826 16.1636 3.47057 16.4028 3.71874 16.575C3.95964 16.7394 4.24664 16.8317 4.54302 16.8401C4.8394 16.8485 5.13168 16.7727 5.38246 16.6222L9.26445 14.2847H9.28101L13.461 16.7954C13.6754 16.9279 13.9254 16.9989 14.1811 17C14.3899 16.9984 14.5955 16.9514 14.7822 16.8624C14.9689 16.7735 15.1316 16.645 15.2579 16.4869C15.3842 16.3288 15.4707 16.1453 15.5107 15.9505C15.5508 15.7556 15.5433 15.5546 15.4889 15.363L14.3053 10.7903L18.0465 7.83102C18.2597 7.66163 18.4147 7.43539 18.4914 7.18149C18.5681 6.92758 18.5631 6.65764 18.4769 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M62.854 6.40648C62.7711 6.15855 62.6114 5.94022 62.3957 5.78011C62.1801 5.62 61.9186 5.52559 61.6455 5.50926L56.7289 5.18657L54.9079 0.818518C54.8084 0.578003 54.6354 0.371406 54.4111 0.225473C54.1867 0.0795413 53.9215 0.000993936 53.6497 0C53.378 0.000993936 53.1127 0.0795413 52.8884 0.225473C52.6641 0.371406 52.491 0.578003 52.3916 0.818518L50.5375 5.21018L45.654 5.50926C45.3813 5.52665 45.1203 5.62145 44.9049 5.78141C44.6894 5.94137 44.5294 6.15911 44.4455 6.40648C44.3594 6.65764 44.3544 6.92758 44.4311 7.18149C44.5078 7.43539 44.6627 7.66163 44.8759 7.83102L48.6338 10.8532L47.5164 15.0324C47.439 15.3151 47.453 15.6134 47.5563 15.8885C47.6596 16.1636 47.8476 16.4028 48.0958 16.575C48.3367 16.7394 48.6237 16.8317 48.92 16.8401C49.2164 16.8485 49.5087 16.7727 49.7595 16.6222L53.6415 14.2847H53.658L57.838 16.7954C58.0524 16.9279 58.3024 16.9989 58.5581 17C58.7669 16.9984 58.9725 16.9514 59.1592 16.8624C59.3459 16.7735 59.5086 16.645 59.6349 16.4869C59.7612 16.3288 59.8477 16.1453 59.8878 15.9505C59.9278 15.7556 59.9203 15.5546 59.8659 15.363L58.6823 10.7903L62.4235 7.83102C62.6367 7.66163 62.7917 7.43539 62.8684 7.18149C62.9451 6.92758 62.9401 6.65764 62.854 6.40648Z" fill="#FFC14B"/>
+
+                                          </svg>
+
+                                    </div>
+
+                                    <p class="castomer__about-name">Andrew Sarma</p>
+
+                                    <p class="castomer__about-position">Enterpreneur</p>
+
+                                </div>
+
+                                <div class="swiper-slide castomer__about-wrapper">
+
+                                    <p class="castomer__about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime veritatis aliquid enim molestias amet delectus, culpa voluptates sed ex.</p>
+
+                                    <div class="star">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="108" height="17" viewBox="0 0 108 17" fill="none">
+
+                                            <path d="M40.6654 6.40648C40.5825 6.15855 40.4228 5.94022 40.2072 5.78011C39.9915 5.62 39.73 5.52559 39.457 5.50926L34.5403 5.18657L32.7193 0.818518C32.6199 0.578003 32.4468 0.371406 32.2225 0.225473C31.9982 0.0795413 31.733 0.000993936 31.4612 0C31.1894 0.000993936 30.9242 0.0795413 30.6999 0.225473C30.4756 0.371406 30.3025 0.578003 30.2031 0.818518L28.349 5.21018L23.4655 5.50926C23.1927 5.52665 22.9318 5.62145 22.7163 5.78141C22.5009 5.94137 22.3409 6.15911 22.257 6.40648C22.1709 6.65764 22.1658 6.92758 22.2425 7.18149C22.3193 7.43539 22.4742 7.66163 22.6874 7.83102L26.4452 10.8532L25.3278 15.0324C25.2505 15.3151 25.2644 15.6134 25.3677 15.8885C25.4711 16.1636 25.659 16.4028 25.9072 16.575C26.1481 16.7394 26.4351 16.8317 26.7315 16.8401C27.0279 16.8485 27.3202 16.7727 27.5709 16.6222L31.4529 14.2847H31.4695L35.6495 16.7954C35.8639 16.9279 36.1139 16.9989 36.3696 17C36.5784 16.9984 36.784 16.9514 36.9707 16.8624C37.1573 16.7735 37.3201 16.645 37.4464 16.4869C37.5727 16.3288 37.6592 16.1453 37.6992 15.9505C37.7393 15.7556 37.7318 15.5546 37.6774 15.363L36.4937 10.7903L40.235 7.83102C40.4482 7.66163 40.6032 7.43539 40.6799 7.18149C40.7566 6.92758 40.7516 6.65764 40.6654 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M85.0425 6.40648C84.9596 6.15855 84.7999 5.94022 84.5842 5.78011C84.3686 5.62 84.1071 5.52559 83.834 5.50926L78.9174 5.18657L77.0964 0.818518C76.997 0.578003 76.8239 0.371406 76.5996 0.225473C76.3753 0.0795413 76.1101 0.000993936 75.8383 0C75.5665 0.000993936 75.3013 0.0795413 75.077 0.225473C74.8527 0.371406 74.6796 0.578003 74.5801 0.818518L72.7261 5.21018L67.8425 5.50926C67.5698 5.52665 67.3088 5.62145 67.0934 5.78141C66.8779 5.94137 66.7179 6.15911 66.6341 6.40648C66.5479 6.65764 66.5429 6.92758 66.6196 7.18149C66.6963 7.43539 66.8513 7.66163 67.0645 7.83102L70.8223 10.8532L69.7049 15.0324C69.6276 15.3151 69.6415 15.6134 69.7448 15.8885C69.8482 16.1636 70.0361 16.4028 70.2843 16.575C70.5252 16.7394 70.8122 16.8317 71.1086 16.8401C71.405 16.8485 71.6972 16.7727 71.948 16.6222L75.83 14.2847H75.8466L80.0265 16.7954C80.2409 16.9279 80.4909 16.9989 80.7466 17C80.9554 16.9984 81.1611 16.9514 81.3477 16.8624C81.5344 16.7735 81.6972 16.645 81.8235 16.4869C81.9498 16.3288 82.0363 16.1453 82.0763 15.9505C82.1163 15.7556 82.1089 15.5546 82.0544 15.363L80.8708 10.7903L84.6121 7.83102C84.8253 7.66163 84.9802 7.43539 85.0569 7.18149C85.1337 6.92758 85.1286 6.65764 85.0425 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M107.231 6.40648C107.148 6.15855 106.988 5.94022 106.773 5.78011C106.557 5.62 106.295 5.52559 106.022 5.50926L101.106 5.18657L99.2848 0.818518C99.1853 0.578003 99.0123 0.371406 98.7879 0.225473C98.5636 0.0795413 98.2984 0.000993936 98.0266 0C97.7548 0.000993936 97.4896 0.0795413 97.2653 0.225473C97.041 0.371406 96.8679 0.578003 96.7685 0.818518L94.9144 5.21018L90.0309 5.50926C89.7582 5.52665 89.4972 5.62145 89.2817 5.78141C89.0663 5.94137 88.9063 6.15911 88.8224 6.40648C88.7363 6.65764 88.7313 6.92758 88.808 7.18149C88.8847 7.43539 89.0396 7.66163 89.2528 7.83102L93.0107 10.8532L91.8932 15.0324C91.8159 15.3151 91.8299 15.6134 91.9332 15.8885C92.0365 16.1636 92.2245 16.4028 92.4727 16.575C92.7135 16.7394 93.0005 16.8317 93.2969 16.8401C93.5933 16.8485 93.8856 16.7727 94.1364 16.6222L98.0184 14.2847H98.0349L102.215 16.7954C102.429 16.9279 102.679 16.9989 102.935 17C103.144 16.9984 103.349 16.9514 103.536 16.8624C103.723 16.7735 103.886 16.645 104.012 16.4869C104.138 16.3288 104.225 16.1453 104.265 15.9505C104.305 15.7556 104.297 15.5546 104.243 15.363L103.059 10.7903L106.8 7.83102C107.014 7.66163 107.169 7.43539 107.245 7.18149C107.322 6.92758 107.317 6.65764 107.231 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M18.4769 6.40648C18.3941 6.15855 18.2343 5.94022 18.0187 5.78011C17.803 5.62 17.5415 5.52559 17.2685 5.50926L12.3518 5.18657L10.5309 0.818518C10.4314 0.578003 10.2584 0.371406 10.034 0.225473C9.80973 0.0795413 9.54452 0.000993936 9.27273 0C9.00094 0.000993936 8.73572 0.0795413 8.51142 0.225473C8.28711 0.371406 8.11403 0.578003 8.0146 0.818518L6.16051 5.21018L1.27698 5.50926C1.00425 5.52665 0.743283 5.62145 0.527839 5.78141C0.312394 5.94137 0.152385 6.15911 0.0685104 6.40648C-0.0176213 6.65764 -0.0226537 6.92758 0.0540622 7.18149C0.130778 7.43539 0.285725 7.66163 0.498924 7.83102L4.25676 10.8532L3.13934 15.0324C3.06203 15.3151 3.07594 15.6134 3.17927 15.8885C3.2826 16.1636 3.47057 16.4028 3.71874 16.575C3.95964 16.7394 4.24664 16.8317 4.54302 16.8401C4.8394 16.8485 5.13168 16.7727 5.38246 16.6222L9.26445 14.2847H9.28101L13.461 16.7954C13.6754 16.9279 13.9254 16.9989 14.1811 17C14.3899 16.9984 14.5955 16.9514 14.7822 16.8624C14.9689 16.7735 15.1316 16.645 15.2579 16.4869C15.3842 16.3288 15.4707 16.1453 15.5107 15.9505C15.5508 15.7556 15.5433 15.5546 15.4889 15.363L14.3053 10.7903L18.0465 7.83102C18.2597 7.66163 18.4147 7.43539 18.4914 7.18149C18.5681 6.92758 18.5631 6.65764 18.4769 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M62.854 6.40648C62.7711 6.15855 62.6114 5.94022 62.3957 5.78011C62.1801 5.62 61.9186 5.52559 61.6455 5.50926L56.7289 5.18657L54.9079 0.818518C54.8084 0.578003 54.6354 0.371406 54.4111 0.225473C54.1867 0.0795413 53.9215 0.000993936 53.6497 0C53.378 0.000993936 53.1127 0.0795413 52.8884 0.225473C52.6641 0.371406 52.491 0.578003 52.3916 0.818518L50.5375 5.21018L45.654 5.50926C45.3813 5.52665 45.1203 5.62145 44.9049 5.78141C44.6894 5.94137 44.5294 6.15911 44.4455 6.40648C44.3594 6.65764 44.3544 6.92758 44.4311 7.18149C44.5078 7.43539 44.6627 7.66163 44.8759 7.83102L48.6338 10.8532L47.5164 15.0324C47.439 15.3151 47.453 15.6134 47.5563 15.8885C47.6596 16.1636 47.8476 16.4028 48.0958 16.575C48.3367 16.7394 48.6237 16.8317 48.92 16.8401C49.2164 16.8485 49.5087 16.7727 49.7595 16.6222L53.6415 14.2847H53.658L57.838 16.7954C58.0524 16.9279 58.3024 16.9989 58.5581 17C58.7669 16.9984 58.9725 16.9514 59.1592 16.8624C59.3459 16.7735 59.5086 16.645 59.6349 16.4869C59.7612 16.3288 59.8477 16.1453 59.8878 15.9505C59.9278 15.7556 59.9203 15.5546 59.8659 15.363L58.6823 10.7903L62.4235 7.83102C62.6367 7.66163 62.7917 7.43539 62.8684 7.18149C62.9451 6.92758 62.9401 6.65764 62.854 6.40648Z" fill="#FFC14B"/>
+
+                                          </svg>
+
+                                    </div>
+
+                                    <p class="castomer__about-name">Sama Hiori</p>
+
+                                    <p class="castomer__about-position">Developer</p>
+
+                                </div>
+
+                                <div class="swiper-slide castomer__about-wrapper">
+
+                                    <p class="castomer__about-text">They responded very quickly and gave me a detailed account of the place—its history, as well as its best features.</p>
+
+                                    <div class="star">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="108" height="17" viewBox="0 0 108 17" fill="none">
+
+                                            <path d="M40.6654 6.40648C40.5825 6.15855 40.4228 5.94022 40.2072 5.78011C39.9915 5.62 39.73 5.52559 39.457 5.50926L34.5403 5.18657L32.7193 0.818518C32.6199 0.578003 32.4468 0.371406 32.2225 0.225473C31.9982 0.0795413 31.733 0.000993936 31.4612 0C31.1894 0.000993936 30.9242 0.0795413 30.6999 0.225473C30.4756 0.371406 30.3025 0.578003 30.2031 0.818518L28.349 5.21018L23.4655 5.50926C23.1927 5.52665 22.9318 5.62145 22.7163 5.78141C22.5009 5.94137 22.3409 6.15911 22.257 6.40648C22.1709 6.65764 22.1658 6.92758 22.2425 7.18149C22.3193 7.43539 22.4742 7.66163 22.6874 7.83102L26.4452 10.8532L25.3278 15.0324C25.2505 15.3151 25.2644 15.6134 25.3677 15.8885C25.4711 16.1636 25.659 16.4028 25.9072 16.575C26.1481 16.7394 26.4351 16.8317 26.7315 16.8401C27.0279 16.8485 27.3202 16.7727 27.5709 16.6222L31.4529 14.2847H31.4695L35.6495 16.7954C35.8639 16.9279 36.1139 16.9989 36.3696 17C36.5784 16.9984 36.784 16.9514 36.9707 16.8624C37.1573 16.7735 37.3201 16.645 37.4464 16.4869C37.5727 16.3288 37.6592 16.1453 37.6992 15.9505C37.7393 15.7556 37.7318 15.5546 37.6774 15.363L36.4937 10.7903L40.235 7.83102C40.4482 7.66163 40.6032 7.43539 40.6799 7.18149C40.7566 6.92758 40.7516 6.65764 40.6654 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M85.0425 6.40648C84.9596 6.15855 84.7999 5.94022 84.5842 5.78011C84.3686 5.62 84.1071 5.52559 83.834 5.50926L78.9174 5.18657L77.0964 0.818518C76.997 0.578003 76.8239 0.371406 76.5996 0.225473C76.3753 0.0795413 76.1101 0.000993936 75.8383 0C75.5665 0.000993936 75.3013 0.0795413 75.077 0.225473C74.8527 0.371406 74.6796 0.578003 74.5801 0.818518L72.7261 5.21018L67.8425 5.50926C67.5698 5.52665 67.3088 5.62145 67.0934 5.78141C66.8779 5.94137 66.7179 6.15911 66.6341 6.40648C66.5479 6.65764 66.5429 6.92758 66.6196 7.18149C66.6963 7.43539 66.8513 7.66163 67.0645 7.83102L70.8223 10.8532L69.7049 15.0324C69.6276 15.3151 69.6415 15.6134 69.7448 15.8885C69.8482 16.1636 70.0361 16.4028 70.2843 16.575C70.5252 16.7394 70.8122 16.8317 71.1086 16.8401C71.405 16.8485 71.6972 16.7727 71.948 16.6222L75.83 14.2847H75.8466L80.0265 16.7954C80.2409 16.9279 80.4909 16.9989 80.7466 17C80.9554 16.9984 81.1611 16.9514 81.3477 16.8624C81.5344 16.7735 81.6972 16.645 81.8235 16.4869C81.9498 16.3288 82.0363 16.1453 82.0763 15.9505C82.1163 15.7556 82.1089 15.5546 82.0544 15.363L80.8708 10.7903L84.6121 7.83102C84.8253 7.66163 84.9802 7.43539 85.0569 7.18149C85.1337 6.92758 85.1286 6.65764 85.0425 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M107.231 6.40648C107.148 6.15855 106.988 5.94022 106.773 5.78011C106.557 5.62 106.295 5.52559 106.022 5.50926L101.106 5.18657L99.2848 0.818518C99.1853 0.578003 99.0123 0.371406 98.7879 0.225473C98.5636 0.0795413 98.2984 0.000993936 98.0266 0C97.7548 0.000993936 97.4896 0.0795413 97.2653 0.225473C97.041 0.371406 96.8679 0.578003 96.7685 0.818518L94.9144 5.21018L90.0309 5.50926C89.7582 5.52665 89.4972 5.62145 89.2817 5.78141C89.0663 5.94137 88.9063 6.15911 88.8224 6.40648C88.7363 6.65764 88.7313 6.92758 88.808 7.18149C88.8847 7.43539 89.0396 7.66163 89.2528 7.83102L93.0107 10.8532L91.8932 15.0324C91.8159 15.3151 91.8299 15.6134 91.9332 15.8885C92.0365 16.1636 92.2245 16.4028 92.4727 16.575C92.7135 16.7394 93.0005 16.8317 93.2969 16.8401C93.5933 16.8485 93.8856 16.7727 94.1364 16.6222L98.0184 14.2847H98.0349L102.215 16.7954C102.429 16.9279 102.679 16.9989 102.935 17C103.144 16.9984 103.349 16.9514 103.536 16.8624C103.723 16.7735 103.886 16.645 104.012 16.4869C104.138 16.3288 104.225 16.1453 104.265 15.9505C104.305 15.7556 104.297 15.5546 104.243 15.363L103.059 10.7903L106.8 7.83102C107.014 7.66163 107.169 7.43539 107.245 7.18149C107.322 6.92758 107.317 6.65764 107.231 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M18.4769 6.40648C18.3941 6.15855 18.2343 5.94022 18.0187 5.78011C17.803 5.62 17.5415 5.52559 17.2685 5.50926L12.3518 5.18657L10.5309 0.818518C10.4314 0.578003 10.2584 0.371406 10.034 0.225473C9.80973 0.0795413 9.54452 0.000993936 9.27273 0C9.00094 0.000993936 8.73572 0.0795413 8.51142 0.225473C8.28711 0.371406 8.11403 0.578003 8.0146 0.818518L6.16051 5.21018L1.27698 5.50926C1.00425 5.52665 0.743283 5.62145 0.527839 5.78141C0.312394 5.94137 0.152385 6.15911 0.0685104 6.40648C-0.0176213 6.65764 -0.0226537 6.92758 0.0540622 7.18149C0.130778 7.43539 0.285725 7.66163 0.498924 7.83102L4.25676 10.8532L3.13934 15.0324C3.06203 15.3151 3.07594 15.6134 3.17927 15.8885C3.2826 16.1636 3.47057 16.4028 3.71874 16.575C3.95964 16.7394 4.24664 16.8317 4.54302 16.8401C4.8394 16.8485 5.13168 16.7727 5.38246 16.6222L9.26445 14.2847H9.28101L13.461 16.7954C13.6754 16.9279 13.9254 16.9989 14.1811 17C14.3899 16.9984 14.5955 16.9514 14.7822 16.8624C14.9689 16.7735 15.1316 16.645 15.2579 16.4869C15.3842 16.3288 15.4707 16.1453 15.5107 15.9505C15.5508 15.7556 15.5433 15.5546 15.4889 15.363L14.3053 10.7903L18.0465 7.83102C18.2597 7.66163 18.4147 7.43539 18.4914 7.18149C18.5681 6.92758 18.5631 6.65764 18.4769 6.40648Z" fill="#FFC14B"/>
+
+                                            <path d="M62.854 6.40648C62.7711 6.15855 62.6114 5.94022 62.3957 5.78011C62.1801 5.62 61.9186 5.52559 61.6455 5.50926L56.7289 5.18657L54.9079 0.818518C54.8084 0.578003 54.6354 0.371406 54.4111 0.225473C54.1867 0.0795413 53.9215 0.000993936 53.6497 0C53.378 0.000993936 53.1127 0.0795413 52.8884 0.225473C52.6641 0.371406 52.491 0.578003 52.3916 0.818518L50.5375 5.21018L45.654 5.50926C45.3813 5.52665 45.1203 5.62145 44.9049 5.78141C44.6894 5.94137 44.5294 6.15911 44.4455 6.40648C44.3594 6.65764 44.3544 6.92758 44.4311 7.18149C44.5078 7.43539 44.6627 7.66163 44.8759 7.83102L48.6338 10.8532L47.5164 15.0324C47.439 15.3151 47.453 15.6134 47.5563 15.8885C47.6596 16.1636 47.8476 16.4028 48.0958 16.575C48.3367 16.7394 48.6237 16.8317 48.92 16.8401C49.2164 16.8485 49.5087 16.7727 49.7595 16.6222L53.6415 14.2847H53.658L57.838 16.7954C58.0524 16.9279 58.3024 16.9989 58.5581 17C58.7669 16.9984 58.9725 16.9514 59.1592 16.8624C59.3459 16.7735 59.5086 16.645 59.6349 16.4869C59.7612 16.3288 59.8477 16.1453 59.8878 15.9505C59.9278 15.7556 59.9203 15.5546 59.8659 15.363L58.6823 10.7903L62.4235 7.83102C62.6367 7.66163 62.7917 7.43539 62.8684 7.18149C62.9451 6.92758 62.9401 6.65764 62.854 6.40648Z" fill="#FFC14B"/>
+
+                                          </svg>
+
+                                    </div>
+
+                                    <p class="castomer__about-name">Mitsuri After</p>
+
+                                    <p class="castomer__about-position">Designer</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        
+
+    
+
+                        <div class="castomer__nav">
+
+                            <button id="customerPrev">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 54 54" fill="none">
+
+                                    <circle cx="27" cy="27" r="26.5" transform="matrix(-1 0 0 1 54 0)" stroke="#2D3134"/>
+
+                                    <path d="M30 33L24 27L30 21" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                </svg>
+
+                            </button>
+
+                            <button id="customerNext">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 54 54" fill="none">
+
+                                    <circle cx="27" cy="27" r="26.5" stroke="#2D3134"/>
+
+                                    <path d="M24 33L30 27L24 21" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                </svg>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="form">
+
+            <div class="container">
+
+                <form class="form__content" action="">
+
+                    <h3 class="form__title">Sign up to our newsletter</h3>
+
+                    <p class="form__desc">Reciev latest news, update, and many other things every week. </p>
+
+                    <div class="form__message">
+
+                        <label class="form__label" for="">
+
+                            <input class="form__input" type="text" placeholder="Enter Your email address">
+
+                            <button class="form__button">
+
+                                <img src="./img/formButton.svg" alt="" style="margin-top: 10px;">
+
+                            </button>
+
+                        </label>
+
+                    </div>                
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+    
+    	<div class="container">
+    
+    		<div class="footer__content">
+    
+    			<div class="footer__links">
+    
+    				<img src="./img/logo.svg" alt="footer_logo">
+    
+    				<p class="footer__links-desc">Enjoy the touring with Salty</p>
+    
+    				<div class="footer__icons">
+    
+    					<a href="" class="footer__link">
+    
+    						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="34" height="34" viewBox="0 0 50 50">
+    
+    							<path fill="#5B5F62" d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z"></path>
+    
+    						</svg>
+    
+    					</a>
+    
+    					<a href="" class="footer__link">
+    
+    						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="34" height="34" viewBox="0 0 50 50">
+    
+    							<path fill="#5B5F62" d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+    
+    						</svg>
+    
+    					</a>
+    
+    					<a href="" class="footer__link">
+    
+    						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="34" height="34" viewBox="0 0 50 50">
+    
+    							<path fill="#5B5F62" d="M 34.21875 5.46875 C 28.238281 5.46875 23.375 10.332031 23.375 16.3125 C 23.375 16.671875 23.464844 17.023438 23.5 17.375 C 16.105469 16.667969 9.566406 13.105469 5.125 7.65625 C 4.917969 7.394531 4.597656 7.253906 4.261719 7.277344 C 3.929688 7.300781 3.632813 7.492188 3.46875 7.78125 C 2.535156 9.386719 2 11.234375 2 13.21875 C 2 15.621094 2.859375 17.820313 4.1875 19.625 C 3.929688 19.511719 3.648438 19.449219 3.40625 19.3125 C 3.097656 19.148438 2.726563 19.15625 2.425781 19.335938 C 2.125 19.515625 1.941406 19.839844 1.9375 20.1875 L 1.9375 20.3125 C 1.9375 23.996094 3.84375 27.195313 6.65625 29.15625 C 6.625 29.152344 6.59375 29.164063 6.5625 29.15625 C 6.21875 29.097656 5.871094 29.21875 5.640625 29.480469 C 5.410156 29.742188 5.335938 30.105469 5.4375 30.4375 C 6.554688 33.910156 9.40625 36.5625 12.9375 37.53125 C 10.125 39.203125 6.863281 40.1875 3.34375 40.1875 C 2.582031 40.1875 1.851563 40.148438 1.125 40.0625 C 0.65625 40 0.207031 40.273438 0.0507813 40.71875 C -0.109375 41.164063 0.0664063 41.660156 0.46875 41.90625 C 4.980469 44.800781 10.335938 46.5 16.09375 46.5 C 25.425781 46.5 32.746094 42.601563 37.65625 37.03125 C 42.566406 31.460938 45.125 24.226563 45.125 17.46875 C 45.125 17.183594 45.101563 16.90625 45.09375 16.625 C 46.925781 15.222656 48.5625 13.578125 49.84375 11.65625 C 50.097656 11.285156 50.070313 10.789063 49.777344 10.445313 C 49.488281 10.101563 49 9.996094 48.59375 10.1875 C 48.078125 10.417969 47.476563 10.441406 46.9375 10.625 C 47.648438 9.675781 48.257813 8.652344 48.625 7.5 C 48.75 7.105469 48.613281 6.671875 48.289063 6.414063 C 47.964844 6.160156 47.511719 6.128906 47.15625 6.34375 C 45.449219 7.355469 43.558594 8.066406 41.5625 8.5 C 39.625 6.6875 37.074219 5.46875 34.21875 5.46875 Z M 34.21875 7.46875 C 36.769531 7.46875 39.074219 8.558594 40.6875 10.28125 C 40.929688 10.53125 41.285156 10.636719 41.625 10.5625 C 42.929688 10.304688 44.167969 9.925781 45.375 9.4375 C 44.679688 10.375 43.820313 11.175781 42.8125 11.78125 C 42.355469 12.003906 42.140625 12.53125 42.308594 13.011719 C 42.472656 13.488281 42.972656 13.765625 43.46875 13.65625 C 44.46875 13.535156 45.359375 13.128906 46.3125 12.875 C 45.457031 13.800781 44.519531 14.636719 43.5 15.375 C 43.222656 15.578125 43.070313 15.90625 43.09375 16.25 C 43.109375 16.65625 43.125 17.058594 43.125 17.46875 C 43.125 23.71875 40.726563 30.503906 36.15625 35.6875 C 31.585938 40.871094 24.875 44.5 16.09375 44.5 C 12.105469 44.5 8.339844 43.617188 4.9375 42.0625 C 9.15625 41.738281 13.046875 40.246094 16.1875 37.78125 C 16.515625 37.519531 16.644531 37.082031 16.511719 36.683594 C 16.378906 36.285156 16.011719 36.011719 15.59375 36 C 12.296875 35.941406 9.535156 34.023438 8.0625 31.3125 C 8.117188 31.3125 8.164063 31.3125 8.21875 31.3125 C 9.207031 31.3125 10.183594 31.1875 11.09375 30.9375 C 11.53125 30.808594 11.832031 30.402344 11.816406 29.945313 C 11.800781 29.488281 11.476563 29.097656 11.03125 29 C 7.472656 28.28125 4.804688 25.382813 4.1875 21.78125 C 5.195313 22.128906 6.226563 22.402344 7.34375 22.4375 C 7.800781 22.464844 8.214844 22.179688 8.355469 21.746094 C 8.496094 21.3125 8.324219 20.835938 7.9375 20.59375 C 5.5625 19.003906 4 16.296875 4 13.21875 C 4 12.078125 4.296875 11.03125 4.6875 10.03125 C 9.6875 15.519531 16.6875 19.164063 24.59375 19.5625 C 24.90625 19.578125 25.210938 19.449219 25.414063 19.210938 C 25.617188 18.96875 25.695313 18.648438 25.625 18.34375 C 25.472656 17.695313 25.375 17.007813 25.375 16.3125 C 25.375 11.414063 29.320313 7.46875 34.21875 7.46875 Z"></path>
+    
+    						</svg>
+    
+    					</a>
+    
+    				</div>
+    
+    			</div>
+    
+    			<div class="footer__navs">
+    
+    				<ul class="footer__list">
+    
+    					<h6 class="footer__list-title">Resources</h6>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Download</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Help Center</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Guide Book</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">App Directory</a>
+    
+    					</li>
+    
+    				</ul>
+    
+    				<ul class="footer__list">
+    
+    					<h6 class="footer__list-title">Travellers</h6>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Why Travellers</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Enterprice</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Customer Stories</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Instagram post</a>
+    
+    					</li>
+    
+    				</ul>
+    
+    				<ul class="footer__list">
+    
+    					<h6 class="footer__list-title">Company</h6>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Travelling</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">About Locato</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Success</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Information</a>
+    
+    					</li>
+    
+    				</ul>
+    
+    				<ul class="footer__list">
+    
+    					<h6 class="footer__list-title">Get App</h6>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">App Store</a>
+    
+    					</li>
+    
+    					<li class="footer__list-item">
+    
+    						<a href="" class="footer__list-link">Google Play Store</a>
+    
+    					</li>
+    
+    				</ul>
+    
+    			</div>
+    
+    		</div>
+    
+    	</div>				
+    
+    </footer>
+
+    <script src="js/main.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mixitup/dist/mixitup.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {      
+            slidesPerView: 6,
+            spaceBetween: 30,  
+            // Navigation arrows
+            navigation: {
+                nextEl: '#sliderNext',
+                prevEl: '#sliderPrev',
+            },
+        });
+
+        const swiperSecond = new Swiper('.swiperSecond', {
+            slidesPerView: 3,
+            spaceBetween: 30
+        });
+
+        const swiperThird = new Swiper('.swiperThird', {
+            slidesPerView: 1,
+            spaceBetween: 1000,
+
+            effect: 'fade',
+
+            navigation: {
+                nextEl: '#customerNext',
+                prevEl: '#customerPrev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+    </script>
+</body>
+</html>
